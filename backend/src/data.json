@@ -1,0 +1,18 @@
+{
+  "sessions": [
+    {
+      "id": "2da02aac-73a6-4a9f-a456-aad6e1edaaa1",
+      "title": "Double match",
+      "description": "...",
+      "date": "2025-10-09",
+      "time": "08:00",
+      "maxParticipants": 4,
+      "sessionType": "public",
+      "matchType": "doubles",
+      "skillLevel": "beginner",
+      "managementCode": "wl2t6k6k",
+      "createdAt": "2025-10-08T12:01:01.628Z"
+    }
+  ],
+  "attendances": []
+}
