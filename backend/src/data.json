@@ -12,7 +12,29 @@
       "skillLevel": "beginner",
       "managementCode": "wl2t6k6k",
       "createdAt": "2025-10-08T12:01:01.628Z"
+    },
+    {
+      "id": "91e3f731-766c-4263-9bd8-67493b7dc58b",
+      "title": "single tournament",
+      "description": ",,",
+      "date": "2025-10-14",
+      "time": "09:10",
+      "maxParticipants": 2,
+      "sessionType": "public",
+      "matchType": "singles",
+      "skillLevel": "all",
+      "managementCode": "oscpscqh",
+      "createdAt": "2025-10-14T10:32:22.569Z"
     }
   ],
-  "attendances": []
+  "attendances": [
+    {
+      "id": "d4aaa511-d639-4117-a98f-a72892134967",
+      "sessionId": "91e3f731-766c-4263-9bd8-67493b7dc58b",
+      "playerName": "fahim",
+      "email": "smfahimalam8@gmail.com",
+      "attendanceCode": "zhcj98fg",
+      "joinedAt": "2025-10-14T10:32:51.757Z"
+    }
+  ]
 }
