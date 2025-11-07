@@ -6,16 +6,15 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install --omit=dev
+RUN npm install -g ts-node typescript
+RUN npm install --save-dev @types/node @types/express @types/cors @types/uuid
 
 # Copy source code
 COPY . .
-
-# Build TypeScript
-RUN npm run build
 
 # Expose port
 EXPOSE 5000
 
 # Start the app
-CMD ["npm", "start"]
+CMD ["ts-node", "src/server.ts"]
